@@ -33,15 +33,22 @@ I will try to work on feature engineering and hyperparameter optimization
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-TODO: Replace the image below with your own.
+
 
 ![model_train_score.png](model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-TODO: Replace the image below with your own.
+
 
 ![model_test_score.png](model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+Bike sharing demand is an regression problem. In the data, it have some categorical variable like season and some are continuos like humidity. It also have time-series data. 
+I have taken the dataset from kaggle into the notebook and installed all the dependancies first. Autogluon and MXnet are some major requirements to be installed.
+As the data also have dattime data in it, The date-time is converted into different features such as year, month, dayofweek, etc. The new features found out to 
+be more insightful for the model as they are simpler to analyze seperately.
+To study the data distribution, data visualization is also performed.
+At last, after adding additional features, to modify model further, Hyperparameter tuning id performed.
+
+
