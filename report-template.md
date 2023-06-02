@@ -6,7 +6,7 @@
 The predictions are count of bike. It can not be negative. Hence to submit we should first replace negative ( invalid) predictions with dummy value i.e. 0.
 
 ### What was the top ranked model that performed?
-WeightedEnsemble
+WeightedEnsemble_L3
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
