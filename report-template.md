@@ -27,9 +27,9 @@ I will try to work on feature engineering and hyperparameter optimization
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|timelimit|preset|Hyperparameter|score|
 |--|--|--|--|--|
-|initial||600|best quality|none|1.80060|
+|initial|600|best quality|none|1.80060|
 |add_features|600|best quality|none|0.64693|
-|hpo|600|best quality|tabular autogluon|0.48946|
+|hpo|600|best quality|Tabular Autogluon: num_boost_rounds=100(for GBM), no_epochs=8(for NN)|0.48946|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
